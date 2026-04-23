@@ -75,11 +75,11 @@ me.say_hi()
 
 ---
 
-## 🏆 GitHub Trophies
-
+## 📊 GitHub Stats
 <div align="center">
-  
-<img src="https://github-profile-trophy.vercel.app/?username=randheimer&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=randheimer&show_icons=true&theme=radical&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=randheimer&theme=radical&hide_border=true)
 
 </div>
 
