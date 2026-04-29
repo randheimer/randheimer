@@ -83,16 +83,13 @@ func main() {
 <div align="center">
 
 <a href="https://github.com/randheimer/KaizerIDE">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=KaizerIDE&theme=radical&hide_border=true&bg_color=0D1117" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=KaizerIDE&theme=radical&hide_border=true&bg_color" />
 </a>
 <a href="https://github.com/randheimer/PDF-Fusion">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=PDF-Fusion&theme=radical&hide_border=true&bg_color=0D1117" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=PDF-Fusion&theme=radical&hide_border=true&bg_color" />
 </a>
 <a href="https://github.com/randheimer/roblox-multi-instance">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=roblox-multi-instance&theme=radical&hide_border=true&bg_color=0D1117" />
-</a>
-<a href="https://github.com/randheimer/cs2-dumper">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=cs2-dumper&theme=radical&hide_border=true&bg_color=0D1117" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=roblox-multi-instance&theme=radical&hide_border=true&bg_color" />
 </a>
 
 </div>
