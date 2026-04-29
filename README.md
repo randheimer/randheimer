@@ -14,11 +14,34 @@
 
 ## 🧬 About Me
 
-> 🧑‍💻 **Systems Engineer** — I work where most people don't go.  
-> 🔧 Kernel drivers · Hypervisors · Custom OS development  
-> 🛡️ Enterprise-grade obfuscation (self-built) · Reverse engineering  
-> ⚙️ Low-level programming · Memory management · Hardware interaction  
-> 🎯 Building tools that operate at the metal — not above it.
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/randheimer/core"
+)
+
+func main() {
+    dev := &core.Engineer{
+        Name: "randheimer",
+        Role: "Systems Engineer",
+        Stack: core.Stack{
+            Kernel:    []string{"Windows Drivers", "Hypervisors", "Custom OS"},
+            Offensive: []string{"Lua Obfuscation", "Enterprise Obfuscation", "Memory Encryption"},
+            Reverse:   []string{"Binary Analysis", "Hooking", "Anti-Debug Bypass"},
+            Tools:     []string{"KaizerIDE", "PDF-Fusion", "Game Tools", "System Utilities"},
+        },
+        Languages: []string{"C++", "Rust", "Go", "C", "Assembly", "Lua", "Python", "JS"},
+    }
+
+    fmt.Println(dev.Introduce())
+    // Output:
+    // "I don't write apps. I write what apps run on."
+    // "Kernel drivers. Hypervisors. Obfuscators. An OS."
+    // "If it touches metal — I've probably been there."
+}
+```
 
 ---
 
@@ -32,6 +55,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![Assembly](https://img.shields.io/badge/Assembly-6E4C93?style=flat-square&logo=assemblyscript&logoColor=white)
 
