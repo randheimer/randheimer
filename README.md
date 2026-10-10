@@ -104,10 +104,6 @@ func main() {
   <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=randheimer&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&langs_count=8" alt="Top Languages" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=randheimer&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" />
-</div>
-
 ---
 
 <div align="center">
