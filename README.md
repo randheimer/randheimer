@@ -80,8 +80,23 @@ func main() {
 
 ## Featured projects
 
-- [PDF-Fusion](https://github.com/randheimer/PDF-Fusion), Python. Offline desktop app for merging PDF and image files. Drag files in, reorder them, preview, and save one PDF.
-- [roblox-multi-instance](https://github.com/randheimer/roblox-multi-instance), Python.
+<div align="center">
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/randheimer/PDF-Fusion">PDF-Fusion</a></h3>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <p>Offline desktop app for merging PDF and image files (JPG, PNG). Add files by dialog or drag and drop, reorder them, preview, and save one PDF.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/randheimer/roblox-multi-instance">roblox-multi-instance</a></h3>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
