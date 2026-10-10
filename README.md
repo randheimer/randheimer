@@ -4,6 +4,10 @@
 
 Kernel drivers, hypervisors, reverse engineering.
 
+[![Profile Views](https://komarev.com/ghpvc/?username=randheimer&color=blueviolet&style=for-the-badge)](https://github.com/randheimer)
+[![GitHub followers](https://img.shields.io/github/followers/randheimer?style=for-the-badge&color=blue)](https://github.com/randheimer?tab=followers)
+[![GitHub Stars](https://img.shields.io/github/stars/randheimer?style=for-the-badge&color=yellow)](https://github.com/randheimer?tab=repositories)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/randheimer/randheimer/output/github-contribution-grid-snake-dark.svg" />
   <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/randheimer/randheimer/output/github-contribution-grid-snake.svg" />
