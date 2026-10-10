@@ -8,6 +8,12 @@ on:
     branches:
       - main
 
+# Scheduled and push-triggered runs both write to the output branch.
+# Queue them rather than letting them race on it.
+concurrency:
+  group: snake
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -17,15 +23,15 @@ jobs:
 
     steps:
       - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-light
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push generated SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
           target_branch: output
           build_dir: dist
