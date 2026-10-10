@@ -123,6 +123,10 @@ func main() {
 
 <div align="center">
 
+### 💭 *"We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us."*
+
+*Anonymous*
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="" width="100%"/>
 
 </div>
