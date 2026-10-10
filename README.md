@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=randheimer&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Systems+Engineer+%7C+Kernel+Developer+%7C+Reverse+Engineer&descAlignY=55&descSize=16" alt="randheimer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=randheimer&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Kernel+drivers,+hypervisors,+reverse+engineering&descAlignY=55&descSize=16" alt="randheimer" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Building+at+the+Metal;Kernel+Drivers+%7C+Hypervisors+%7C+Custom+OS;Obfuscation+%7C+Reverse+Engineering+%7C+Systems+Programming" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Kernel+drivers+and+hypervisors;Reverse+engineering+and+obfuscation;C%2C+C%2B%2B+and+Rust" alt="Typing SVG" />
 
 [![Profile Views](https://komarev.com/ghpvc/?username=randheimer&color=blueviolet&style=for-the-badge)](https://github.com/randheimer)
 [![GitHub followers](https://img.shields.io/github/followers/randheimer?style=for-the-badge&color=blue)](https://github.com/randheimer?tab=followers)
@@ -12,7 +12,7 @@
 
 ---
 
-## 🧬 About Me
+## About
 
 ```go
 package main
@@ -51,16 +51,12 @@ func main() {
 	}
 
 	fmt.Println(dev.Introduce())
-
-	// "I don't write apps. I write what apps run on."
-	// "Kernel drivers. Hypervisors. Obfuscators. An OS."
-	// "If it touches metal — I've probably been there."
 }
 ```
 
 ---
 
-## 💻 Tech Stack
+## Tech stack
 
 <div align="center">
 
@@ -93,7 +89,7 @@ func main() {
 
 ---
 
-## 🌟 Featured Projects
+## Featured projects
 
 <div align="center">
 
@@ -108,7 +104,7 @@ func main() {
 
 ---
 
-## 📊 GitHub Statistics
+## GitHub stats
 
 <div align="center">
   <img width="32%" src="https://github-readme-stats.vercel.app/api?username=randheimer&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
@@ -126,10 +122,6 @@ func main() {
 ---
 
 <div align="center">
-
-### 💭 *"The best way to predict the future is to build it — from the kernel up."*
-
-**Thanks for visiting! ⭐ Star some repos if you find them interesting!**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="" width="100%"/>
 
