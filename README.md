@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=randheimer&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Systems+Engineer+%7C+Kernel+Developer+%7C+Reverse+Engineer&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=randheimer&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Systems+Engineer+%7C+Kernel+Developer+%7C+Reverse+Engineer&descAlignY=55&descSize=16" alt="randheimer" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Building+at+the+Metal;Kernel+Drivers+%7C+Hypervisors+%7C+Custom+OS;Obfuscation+%7C+Reverse+Engineering+%7C+Systems+Programming" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Building+at+the+Metal;Kernel+Drivers+%7C+Hypervisors+%7C+Custom+OS;Obfuscation+%7C+Reverse+Engineering+%7C+Systems+Programming" alt="Typing SVG" />
 
 [![Profile Views](https://komarev.com/ghpvc/?username=randheimer&color=blueviolet&style=for-the-badge)](https://github.com/randheimer)
 [![GitHub followers](https://img.shields.io/github/followers/randheimer?style=for-the-badge&color=blue)](https://github.com/randheimer?tab=followers)
@@ -17,29 +17,44 @@
 ```go
 package main
 
-import (
-    "fmt"
-    "github.com/randheimer/core"
-)
+import "fmt"
+
+type Stack struct {
+	Kernel    []string
+	Offensive []string
+	Reverse   []string
+	Tools     []string
+}
+
+type Engineer struct {
+	Name      string
+	Role      string
+	Stack     Stack
+	Languages []string
+}
+
+func (e *Engineer) Introduce() string {
+	return fmt.Sprintf("%s, %s", e.Name, e.Role)
+}
 
 func main() {
-    dev := &core.Engineer{
-        Name: "randheimer",
-        Role: "Systems Engineer",
-        Stack: core.Stack{
-            Kernel:    []string{"Windows Drivers", "Hypervisors", "Custom OS"},
-            Offensive: []string{"Lua Obfuscation", "Enterprise Obfuscation", "Memory Encryption"},
-            Reverse:   []string{"Binary Analysis", "Hooking", "Anti-Debug Bypass"},
-            Tools:     []string{"KaizerIDE", "PDF-Fusion", "Game Tools", "System Utilities"},
-        },
-        Languages: []string{"C++", "Rust", "Go", "C", "Assembly", "Lua", "Python", "JS"},
-    }
+	dev := &Engineer{
+		Name: "randheimer",
+		Role: "Systems Engineer",
+		Stack: Stack{
+			Kernel:    []string{"Windows Drivers", "Hypervisors", "Custom OS"},
+			Offensive: []string{"Lua Obfuscation", "Enterprise Obfuscation", "Memory Encryption"},
+			Reverse:   []string{"Binary Analysis", "Hooking", "Anti-Debug Bypass"},
+			Tools:     []string{"KaizerIDE", "PDF-Fusion", "Game Tools", "System Utilities"},
+		},
+		Languages: []string{"C++", "Rust", "Go", "C", "Assembly", "Lua", "Python", "JS"},
+	}
 
-    fmt.Println(dev.Introduce())
-    // Output:
-    // "I don't write apps. I write what apps run on."
-    // "Kernel drivers. Hypervisors. Obfuscators. An OS."
-    // "If it touches metal — I've probably been there."
+	fmt.Println(dev.Introduce())
+
+	// "I don't write apps. I write what apps run on."
+	// "Kernel drivers. Hypervisors. Obfuscators. An OS."
+	// "If it touches metal — I've probably been there."
 }
 ```
 
@@ -57,7 +72,7 @@ func main() {
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-6E4C93?style=flat-square&logo=assemblyscript&logoColor=white)
+![Assembly](https://img.shields.io/badge/Assembly-6E4C93?style=flat-square)
 
 ### Systems & Kernel
 ![Windows Driver](https://img.shields.io/badge/Windows_Kernel-0078D6?style=flat-square&logo=windows&logoColor=white)
@@ -82,14 +97,11 @@ func main() {
 
 <div align="center">
 
-<a href="https://github.com/randheimer/KaizerIDE">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=KaizerIDE&theme=radical&hide_border=true&bg_color" />
-</a>
 <a href="https://github.com/randheimer/PDF-Fusion">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=PDF-Fusion&theme=radical&hide_border=true&bg_color" />
+  <img alt="PDF-Fusion" src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=PDF-Fusion&theme=radical&hide_border=true&bg_color" />
 </a>
 <a href="https://github.com/randheimer/roblox-multi-instance">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=roblox-multi-instance&theme=radical&hide_border=true&bg_color" />
+  <img alt="roblox-multi-instance" src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=roblox-multi-instance&theme=radical&hide_border=true&bg_color" />
 </a>
 
 </div>
@@ -104,6 +116,13 @@ func main() {
   <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=randheimer&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&langs_count=8" alt="Top Languages" />
 </div>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/randheimer/randheimer/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/randheimer/randheimer/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
 ---
 
 <div align="center">
@@ -112,6 +131,6 @@ func main() {
 
 **Thanks for visiting! ⭐ Star some repos if you find them interesting!**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="" width="100%"/>
 
 </div>
