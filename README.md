@@ -82,19 +82,12 @@ func main() {
 
 <div align="center">
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/randheimer/PDF-Fusion">PDF-Fusion</a></h3>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <p>Offline desktop app for merging PDF and image files (JPG, PNG). Add files by dialog or drag and drop, reorder them, preview, and save one PDF.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/randheimer/roblox-multi-instance">roblox-multi-instance</a></h3>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/randheimer/PDF-Fusion">
+  <img alt="PDF-Fusion" src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=PDF-Fusion&theme=radical&hide_border=true&bg_color" />
+</a>
+<a href="https://github.com/randheimer/roblox-multi-instance">
+  <img alt="roblox-multi-instance" src="https://github-readme-stats.vercel.app/api/pin/?username=randheimer&repo=roblox-multi-instance&theme=radical&hide_border=true&bg_color" />
+</a>
 
 </div>
 
